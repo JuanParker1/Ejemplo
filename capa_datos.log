@@ -1,0 +1,249 @@
+26/01/2022 16:25:10 - DEBUG- [cursor_del_pool.py:11] - Inicio del rey __enter__
+26/01/2022 16:25:10 - DEBUG- [conexion.py:29] - Conexion establecida <psycopg2.pool.SimpleConnectionPool object at 0x000001B740DEB910>
+26/01/2022 16:25:10 - DEBUG- [cursor_del_pool.py:17] - Se ejecuta metodo __exit__
+26/01/2022 16:25:10 - DEBUG- [cursor_del_pool.py:23] - Transaccion exitosa rey
+26/01/2022 16:25:10 - DEBUG- [conexion.py:45] - Conexion liberada Kinga <connection object at 0x000001B73EF13AB0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1', closed: 0>
+26/01/2022 16:25:10 - DEBUG- [persona_dao.py:76] - 20
+26/01/2022 16:25:10 - DEBUG- [persona_dao.py:76] - Juan
+26/01/2022 16:25:10 - DEBUG- [persona_dao.py:76] - Perez
+26/01/2022 16:25:10 - DEBUG- [persona_dao.py:76] - jperez@gmail.com
+26/01/2022 16:27:42 - DEBUG- [cursor_del_pool.py:11] - Inicio del rey __enter__
+26/01/2022 16:27:42 - DEBUG- [conexion.py:29] - Conexion establecida <psycopg2.pool.SimpleConnectionPool object at 0x000001A72C79B970>
+26/01/2022 16:27:42 - DEBUG- [persona_dao.py:33] - Insertar persona:  
+                    id_persona: None
+                    nombre: Juanchu
+                    apellido: Perez2
+                    email: jperez@gmail.com
+                    
+26/01/2022 16:27:42 - DEBUG- [cursor_del_pool.py:17] - Se ejecuta metodo __exit__
+26/01/2022 16:27:42 - DEBUG- [cursor_del_pool.py:23] - Transaccion exitosa rey
+26/01/2022 16:27:42 - DEBUG- [conexion.py:45] - Conexion liberada Kinga <connection object at 0x000001A72A4D3AB0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1', closed: 0>
+26/01/2022 16:27:42 - DEBUG- [persona_dao.py:60] - Se insertaron 1 personas kinga
+27/01/2022 12:45:50 - DEBUG- [usuario.py:38] - Usuario: 1, jperez, 12345
+27/01/2022 12:47:08 - DEBUG- [usuario.py:38] - Usuario: 1, jperez, 12345
+27/01/2022 12:47:08 - DEBUG- [usuario.py:42] - Usuario: jjorge, 12456, None
+27/01/2022 12:47:32 - DEBUG- [cursor_del_pool.py:11] - Inicio del rey __enter__
+27/01/2022 12:47:32 - DEBUG- [conexion.py:29] - Conexion establecida <psycopg2.pool.SimpleConnectionPool object at 0x000001F6D6AB5B10>
+27/01/2022 12:47:32 - DEBUG- [usuario_dao.py:31] - Insertando usuario rey  Usuario: None, Juanchu, 1234
+27/01/2022 12:47:32 - DEBUG- [cursor_del_pool.py:17] - Se ejecuta metodo __exit__
+27/01/2022 12:47:32 - DEBUG- [cursor_del_pool.py:23] - Transaccion exitosa rey
+27/01/2022 12:47:32 - DEBUG- [conexion.py:45] - Conexion liberada Kinga <connection object at 0x000001F6D4593AB0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1', closed: 0>
+27/01/2022 12:47:32 - DEBUG- [usuario_dao.py:60] - Se insertaron 1 personas kinga
+27/01/2022 12:48:21 - DEBUG- [cursor_del_pool.py:11] - Inicio del rey __enter__
+27/01/2022 12:48:21 - DEBUG- [conexion.py:29] - Conexion establecida <psycopg2.pool.SimpleConnectionPool object at 0x0000029061CFF070>
+27/01/2022 12:48:21 - DEBUG- [usuario_dao.py:19] - Seleccionando todos los usuarios
+27/01/2022 12:48:21 - DEBUG- [cursor_del_pool.py:17] - Se ejecuta metodo __exit__
+27/01/2022 12:48:21 - DEBUG- [cursor_del_pool.py:23] - Transaccion exitosa rey
+27/01/2022 12:48:21 - DEBUG- [conexion.py:45] - Conexion liberada Kinga <connection object at 0x0000029061793AB0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1', closed: 0>
+27/01/2022 12:48:21 - INFO- [menu_app_usuario.py:17] - Usuario: (1, 'jperez', '12345'), (2, 'jccignetti', '12345'), (3, 'Juanchu', '1234')
+27/01/2022 12:48:21 - INFO- [menu_app_usuario.py:17] - Usuario: (1, 'jperez', '12345'), (2, 'jccignetti', '12345'), (3, 'Juanchu', '1234')
+27/01/2022 12:48:21 - INFO- [menu_app_usuario.py:17] - Usuario: (1, 'jperez', '12345'), (2, 'jccignetti', '12345'), (3, 'Juanchu', '1234')
+27/01/2022 13:59:48 - INFO- [menu_app_usuario.py:19] - Saliendo del programa
+27/01/2022 14:11:37 - DEBUG- [cursor_del_pool.py:11] - Inicio del rey __enter__
+27/01/2022 14:11:37 - DEBUG- [conexion.py:29] - Conexion establecida <psycopg2.pool.SimpleConnectionPool object at 0x0000012B660BEF50>
+27/01/2022 14:11:37 - DEBUG- [usuario_dao.py:31] - Insertando usuario rey  Usuario: None, garza, 123456
+27/01/2022 14:11:37 - DEBUG- [cursor_del_pool.py:17] - Se ejecuta metodo __exit__
+27/01/2022 14:11:37 - DEBUG- [cursor_del_pool.py:23] - Transaccion exitosa rey
+27/01/2022 14:11:37 - DEBUG- [conexion.py:45] - Conexion liberada Kinga <connection object at 0x0000012B641E3BC0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1', closed: 0>
+27/01/2022 14:11:37 - INFO- [menu_app_usuario.py:24] - Usuario agregado rey de kinga: Usuario: None, garza, 123456
+27/01/2022 14:13:05 - DEBUG- [cursor_del_pool.py:11] - Inicio del rey __enter__
+27/01/2022 14:13:05 - DEBUG- [usuario_dao.py:19] - Seleccionando todos los usuarios
+27/01/2022 14:13:05 - DEBUG- [cursor_del_pool.py:17] - Se ejecuta metodo __exit__
+27/01/2022 14:13:05 - DEBUG- [cursor_del_pool.py:23] - Transaccion exitosa rey
+27/01/2022 14:13:05 - DEBUG- [conexion.py:45] - Conexion liberada Kinga <connection object at 0x0000012B641E3BC0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1', closed: 0>
+27/01/2022 14:13:05 - INFO- [menu_app_usuario.py:18] - Usuario: (1, 'jperez', '12345'), (2, 'jccignetti', '12345'), (3, 'Juanchu', '1234')
+27/01/2022 14:13:05 - INFO- [menu_app_usuario.py:18] - Usuario: (1, 'jperez', '12345'), (2, 'jccignetti', '12345'), (3, 'Juanchu', '1234')
+27/01/2022 14:13:05 - INFO- [menu_app_usuario.py:18] - Usuario: (1, 'jperez', '12345'), (2, 'jccignetti', '12345'), (3, 'Juanchu', '1234')
+27/01/2022 14:13:05 - INFO- [menu_app_usuario.py:18] - Usuario: (1, 'jperez', '12345'), (2, 'jccignetti', '12345'), (3, 'Juanchu', '1234')
+27/01/2022 14:13:19 - DEBUG- [cursor_del_pool.py:11] - Inicio del rey __enter__
+27/01/2022 14:13:19 - DEBUG- [usuario_dao.py:19] - Seleccionando todos los usuarios
+27/01/2022 14:13:19 - DEBUG- [cursor_del_pool.py:17] - Se ejecuta metodo __exit__
+27/01/2022 14:13:19 - DEBUG- [cursor_del_pool.py:23] - Transaccion exitosa rey
+27/01/2022 14:13:19 - DEBUG- [conexion.py:45] - Conexion liberada Kinga <connection object at 0x0000012B641E3BC0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1', closed: 0>
+27/01/2022 14:13:19 - INFO- [menu_app_usuario.py:18] - Usuario: (1, 'jperez', '12345'), (2, 'jccignetti', '12345'), (3, 'Juanchu', '1234')
+27/01/2022 14:13:19 - INFO- [menu_app_usuario.py:18] - Usuario: (1, 'jperez', '12345'), (2, 'jccignetti', '12345'), (3, 'Juanchu', '1234')
+27/01/2022 14:13:19 - INFO- [menu_app_usuario.py:18] - Usuario: (1, 'jperez', '12345'), (2, 'jccignetti', '12345'), (3, 'Juanchu', '1234')
+27/01/2022 14:13:19 - INFO- [menu_app_usuario.py:18] - Usuario: (1, 'jperez', '12345'), (2, 'jccignetti', '12345'), (3, 'Juanchu', '1234')
+27/01/2022 14:18:31 - DEBUG- [cursor_del_pool.py:11] - Inicio del rey __enter__
+27/01/2022 14:18:31 - DEBUG- [conexion.py:29] - Conexion establecida <psycopg2.pool.SimpleConnectionPool object at 0x0000018145533EE0>
+27/01/2022 14:18:31 - DEBUG- [usuario_dao.py:19] - Seleccionando todos los usuarios
+27/01/2022 14:18:31 - DEBUG- [cursor_del_pool.py:17] - Se ejecuta metodo __exit__
+27/01/2022 14:18:31 - DEBUG- [cursor_del_pool.py:23] - Transaccion exitosa rey
+27/01/2022 14:18:31 - DEBUG- [conexion.py:45] - Conexion liberada Kinga <connection object at 0x00000181453C3BC0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1', closed: 0>
+27/01/2022 14:18:31 - INFO- [menu_app_usuario.py:18] - Usuario: (1, 'jperez', '12345'), (2, 'jccignetti', '12345'), (3, 'Juanchu', '1234')
+27/01/2022 14:18:31 - INFO- [menu_app_usuario.py:18] - Usuario: (1, 'jperez', '12345'), (2, 'jccignetti', '12345'), (3, 'Juanchu', '1234')
+27/01/2022 14:18:31 - INFO- [menu_app_usuario.py:18] - Usuario: (1, 'jperez', '12345'), (2, 'jccignetti', '12345'), (3, 'Juanchu', '1234')
+27/01/2022 14:18:31 - INFO- [menu_app_usuario.py:18] - Usuario: (1, 'jperez', '12345'), (2, 'jccignetti', '12345'), (3, 'Juanchu', '1234')
+27/01/2022 14:20:58 - DEBUG- [cursor_del_pool.py:11] - Inicio del rey __enter__
+27/01/2022 14:20:58 - DEBUG- [conexion.py:29] - Conexion establecida <psycopg2.pool.SimpleConnectionPool object at 0x000001814731B310>
+27/01/2022 14:20:58 - DEBUG- [usuario_dao.py:31] - Insertando usuario rey  Usuario: None, Juanchu, 1234
+27/01/2022 14:20:58 - DEBUG- [cursor_del_pool.py:17] - Se ejecuta metodo __exit__
+27/01/2022 14:20:58 - DEBUG- [cursor_del_pool.py:23] - Transaccion exitosa rey
+27/01/2022 14:20:58 - DEBUG- [conexion.py:45] - Conexion liberada Kinga <connection object at 0x00000181450B3AB0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1', closed: 0>
+27/01/2022 14:20:58 - DEBUG- [usuario_dao.py:60] - Se insertaron 1 personas kinga
+27/01/2022 14:21:18 - DEBUG- [cursor_del_pool.py:11] - Inicio del rey __enter__
+27/01/2022 14:21:18 - DEBUG- [conexion.py:29] - Conexion establecida <psycopg2.pool.SimpleConnectionPool object at 0x000001850C2A3EE0>
+27/01/2022 14:21:18 - DEBUG- [usuario_dao.py:19] - Seleccionando todos los usuarios
+27/01/2022 14:21:18 - DEBUG- [cursor_del_pool.py:17] - Se ejecuta metodo __exit__
+27/01/2022 14:21:18 - DEBUG- [cursor_del_pool.py:23] - Transaccion exitosa rey
+27/01/2022 14:21:18 - DEBUG- [conexion.py:45] - Conexion liberada Kinga <connection object at 0x000001850C133BC0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1', closed: 0>
+27/01/2022 14:21:18 - INFO- [menu_app_usuario.py:18] - Usuario: (1, 'jperez', '12345'), (2, 'jccignetti', '12345'), (3, 'Juanchu', '1234')
+27/01/2022 14:21:18 - INFO- [menu_app_usuario.py:18] - Usuario: (1, 'jperez', '12345'), (2, 'jccignetti', '12345'), (3, 'Juanchu', '1234')
+27/01/2022 14:21:18 - INFO- [menu_app_usuario.py:18] - Usuario: (1, 'jperez', '12345'), (2, 'jccignetti', '12345'), (3, 'Juanchu', '1234')
+27/01/2022 14:21:18 - INFO- [menu_app_usuario.py:18] - Usuario: (1, 'jperez', '12345'), (2, 'jccignetti', '12345'), (3, 'Juanchu', '1234')
+27/01/2022 14:21:18 - INFO- [menu_app_usuario.py:18] - Usuario: (1, 'jperez', '12345'), (2, 'jccignetti', '12345'), (3, 'Juanchu', '1234')
+27/01/2022 14:23:24 - DEBUG- [cursor_del_pool.py:11] - Inicio del rey __enter__
+27/01/2022 14:23:25 - DEBUG- [conexion.py:29] - Conexion establecida <psycopg2.pool.SimpleConnectionPool object at 0x000001AC5581EEC0>
+27/01/2022 14:23:25 - DEBUG- [usuario_dao.py:39] - Actualizando usuario KINGAAAAAA Usuario: None, xxx, 123
+27/01/2022 14:23:25 - DEBUG- [cursor_del_pool.py:17] - Se ejecuta metodo __exit__
+27/01/2022 14:23:25 - ERROR- [cursor_del_pool.py:20] - Error en la transaccion reyyyyy, rollback <class 'IndexError'>
+27/01/2022 14:23:25 - DEBUG- [conexion.py:45] - Conexion liberada Kinga <connection object at 0x000001AC535B3AB0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1', closed: 0>
+27/01/2022 14:28:02 - DEBUG- [cursor_del_pool.py:11] - Inicio del rey __enter__
+27/01/2022 14:28:02 - DEBUG- [conexion.py:29] - Conexion establecida <psycopg2.pool.SimpleConnectionPool object at 0x0000019DB789B3A0>
+27/01/2022 14:28:02 - DEBUG- [usuario_dao.py:31] - Insertando usuario rey  Usuario: None, Juanchu, 1234
+27/01/2022 14:28:02 - DEBUG- [cursor_del_pool.py:17] - Se ejecuta metodo __exit__
+27/01/2022 14:28:02 - DEBUG- [cursor_del_pool.py:23] - Transaccion exitosa rey
+27/01/2022 14:28:02 - DEBUG- [conexion.py:45] - Conexion liberada Kinga <connection object at 0x0000019DB5643AB0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1', closed: 0>
+27/01/2022 14:28:02 - DEBUG- [usuario_dao.py:60] - Se insertaron 1 personas kinga
+27/01/2022 14:28:18 - DEBUG- [cursor_del_pool.py:11] - Inicio del rey __enter__
+27/01/2022 14:28:18 - DEBUG- [conexion.py:29] - Conexion establecida <psycopg2.pool.SimpleConnectionPool object at 0x000001E0F598D120>
+27/01/2022 14:28:18 - DEBUG- [usuario_dao.py:39] - Actualizando usuario KINGAAAAAA Usuario: None, rrr, 123
+27/01/2022 14:28:18 - DEBUG- [cursor_del_pool.py:17] - Se ejecuta metodo __exit__
+27/01/2022 14:28:18 - DEBUG- [cursor_del_pool.py:23] - Transaccion exitosa rey
+27/01/2022 14:28:18 - DEBUG- [conexion.py:45] - Conexion liberada Kinga <connection object at 0x000001E0F3873AB0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1', closed: 0>
+27/01/2022 14:28:18 - INFO- [menu_app_usuario.py:31] - Usuario modificado rey de kinga: Usuario: None, rrr, 123
+27/01/2022 14:30:22 - DEBUG- [cursor_del_pool.py:11] - Inicio del rey __enter__
+27/01/2022 14:30:22 - DEBUG- [conexion.py:29] - Conexion establecida <psycopg2.pool.SimpleConnectionPool object at 0x000002B0DF5BEEC0>
+27/01/2022 14:30:22 - DEBUG- [usuario_dao.py:39] - Actualizando usuario KINGAAAAAA Usuario: 3, eeee, 12345
+27/01/2022 14:30:22 - DEBUG- [cursor_del_pool.py:17] - Se ejecuta metodo __exit__
+27/01/2022 14:30:22 - DEBUG- [cursor_del_pool.py:23] - Transaccion exitosa rey
+27/01/2022 14:30:22 - DEBUG- [conexion.py:45] - Conexion liberada Kinga <connection object at 0x000002B0DD383AB0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1', closed: 0>
+27/01/2022 14:30:22 - INFO- [menu_app_usuario.py:31] - Usuario modificado rey de kinga: Usuario: 3, eeee, 12345
+27/01/2022 14:30:28 - DEBUG- [cursor_del_pool.py:11] - Inicio del rey __enter__
+27/01/2022 14:30:28 - DEBUG- [usuario_dao.py:19] - Seleccionando todos los usuarios
+27/01/2022 14:30:28 - DEBUG- [cursor_del_pool.py:17] - Se ejecuta metodo __exit__
+27/01/2022 14:30:28 - DEBUG- [cursor_del_pool.py:23] - Transaccion exitosa rey
+27/01/2022 14:30:28 - DEBUG- [conexion.py:45] - Conexion liberada Kinga <connection object at 0x000002B0DD383AB0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1', closed: 0>
+27/01/2022 14:30:28 - INFO- [menu_app_usuario.py:18] - Usuario: (1, 'jperez', '12345'), (2, 'jccignetti', '12345'), (3, 'eeee', '12345')
+27/01/2022 14:30:28 - INFO- [menu_app_usuario.py:18] - Usuario: (1, 'jperez', '12345'), (2, 'jccignetti', '12345'), (3, 'eeee', '12345')
+27/01/2022 14:30:28 - INFO- [menu_app_usuario.py:18] - Usuario: (1, 'jperez', '12345'), (2, 'jccignetti', '12345'), (3, 'eeee', '12345')
+27/01/2022 14:30:28 - INFO- [menu_app_usuario.py:18] - Usuario: (1, 'jperez', '12345'), (2, 'jccignetti', '12345'), (3, 'eeee', '12345')
+27/01/2022 14:30:28 - INFO- [menu_app_usuario.py:18] - Usuario: (1, 'jperez', '12345'), (2, 'jccignetti', '12345'), (3, 'eeee', '12345')
+27/01/2022 14:30:28 - INFO- [menu_app_usuario.py:18] - Usuario: (1, 'jperez', '12345'), (2, 'jccignetti', '12345'), (3, 'eeee', '12345')
+27/01/2022 14:33:08 - DEBUG- [cursor_del_pool.py:11] - Inicio del rey __enter__
+27/01/2022 14:33:08 - DEBUG- [conexion.py:29] - Conexion establecida <psycopg2.pool.SimpleConnectionPool object at 0x00000210C781B400>
+27/01/2022 14:33:08 - DEBUG- [usuario_dao.py:31] - Insertando usuario rey  Usuario: None, Juanchu, 1234
+27/01/2022 14:33:08 - DEBUG- [cursor_del_pool.py:17] - Se ejecuta metodo __exit__
+27/01/2022 14:33:08 - DEBUG- [cursor_del_pool.py:23] - Transaccion exitosa rey
+27/01/2022 14:33:08 - DEBUG- [conexion.py:45] - Conexion liberada Kinga <connection object at 0x00000210C5943AB0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1', closed: 0>
+27/01/2022 14:33:08 - DEBUG- [usuario_dao.py:60] - Se insertaron 1 personas kinga
+27/01/2022 14:33:21 - DEBUG- [cursor_del_pool.py:11] - Inicio del rey __enter__
+27/01/2022 14:33:21 - DEBUG- [conexion.py:29] - Conexion establecida <psycopg2.pool.SimpleConnectionPool object at 0x0000018492613EE0>
+27/01/2022 14:33:21 - DEBUG- [usuario_dao.py:19] - Seleccionando todos los usuarios
+27/01/2022 14:33:21 - DEBUG- [cursor_del_pool.py:17] - Se ejecuta metodo __exit__
+27/01/2022 14:33:21 - ERROR- [cursor_del_pool.py:20] - Error en la transaccion reyyyyy, rollback <class 'TypeError'>
+27/01/2022 14:33:21 - DEBUG- [conexion.py:45] - Conexion liberada Kinga <connection object at 0x00000184924A3AB0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1', closed: 0>
+27/01/2022 14:35:48 - DEBUG- [cursor_del_pool.py:11] - Inicio del rey __enter__
+27/01/2022 14:35:48 - DEBUG- [conexion.py:29] - Conexion establecida <psycopg2.pool.SimpleConnectionPool object at 0x0000020D34AC3EE0>
+27/01/2022 14:35:48 - DEBUG- [usuario_dao.py:19] - Seleccionando todos los usuarios
+27/01/2022 14:35:48 - DEBUG- [cursor_del_pool.py:17] - Se ejecuta metodo __exit__
+27/01/2022 14:35:48 - DEBUG- [cursor_del_pool.py:23] - Transaccion exitosa rey
+27/01/2022 14:35:48 - DEBUG- [conexion.py:45] - Conexion liberada Kinga <connection object at 0x0000020D345C3AB0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1', closed: 0>
+27/01/2022 14:35:48 - INFO- [menu_app_usuario.py:18] - Usuario: (1, 'jperez', '12345'), (2, 'jccignetti', '12345'), (3, 'eeee', '12345')
+27/01/2022 14:35:48 - INFO- [menu_app_usuario.py:18] - Usuario: (1, 'jperez', '12345'), (2, 'jccignetti', '12345'), (3, 'eeee', '12345')
+27/01/2022 14:35:48 - INFO- [menu_app_usuario.py:18] - Usuario: (1, 'jperez', '12345'), (2, 'jccignetti', '12345'), (3, 'eeee', '12345')
+27/01/2022 14:35:48 - INFO- [menu_app_usuario.py:18] - Usuario: (1, 'jperez', '12345'), (2, 'jccignetti', '12345'), (3, 'eeee', '12345')
+27/01/2022 14:35:48 - INFO- [menu_app_usuario.py:18] - Usuario: (1, 'jperez', '12345'), (2, 'jccignetti', '12345'), (3, 'eeee', '12345')
+27/01/2022 14:35:48 - INFO- [menu_app_usuario.py:18] - Usuario: (1, 'jperez', '12345'), (2, 'jccignetti', '12345'), (3, 'eeee', '12345')
+27/01/2022 14:35:48 - INFO- [menu_app_usuario.py:18] - Usuario: (1, 'jperez', '12345'), (2, 'jccignetti', '12345'), (3, 'eeee', '12345')
+27/01/2022 14:37:32 - DEBUG- [cursor_del_pool.py:11] - Inicio del rey __enter__
+27/01/2022 14:37:32 - DEBUG- [conexion.py:29] - Conexion establecida <psycopg2.pool.SimpleConnectionPool object at 0x000001961ADD3EE0>
+27/01/2022 14:37:32 - DEBUG- [usuario_dao.py:19] - Seleccionando todos los usuarios
+27/01/2022 14:37:32 - DEBUG- [cursor_del_pool.py:17] - Se ejecuta metodo __exit__
+27/01/2022 14:37:32 - DEBUG- [cursor_del_pool.py:23] - Transaccion exitosa rey
+27/01/2022 14:37:32 - DEBUG- [conexion.py:45] - Conexion liberada Kinga <connection object at 0x000001961AC63AB0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1', closed: 0>
+27/01/2022 14:37:32 - INFO- [menu_app_usuario.py:18] - Usuario: 1, jperez, 12345
+27/01/2022 14:37:32 - INFO- [menu_app_usuario.py:18] - Usuario: 2, jccignetti, 12345
+27/01/2022 14:37:32 - INFO- [menu_app_usuario.py:18] - Usuario: 3, eeee, 12345
+27/01/2022 14:37:32 - INFO- [menu_app_usuario.py:18] - Usuario: 4, garza, 123456
+27/01/2022 14:37:32 - INFO- [menu_app_usuario.py:18] - Usuario: 5, Juanchu, 1234
+27/01/2022 14:37:32 - INFO- [menu_app_usuario.py:18] - Usuario: 6, Juanchu, 1234
+27/01/2022 14:37:32 - INFO- [menu_app_usuario.py:18] - Usuario: 7, Juanchu, 1234
+27/01/2022 14:43:16 - DEBUG- [cursor_del_pool.py:11] - Inicio del rey __enter__
+27/01/2022 14:43:16 - DEBUG- [conexion.py:29] - Conexion establecida <psycopg2.pool.SimpleConnectionPool object at 0x0000014BEEAA9000>
+27/01/2022 14:43:16 - DEBUG- [usuario_dao.py:31] - Insertando usuario rey  Usuario: None, uuu, 7878
+27/01/2022 14:43:16 - DEBUG- [cursor_del_pool.py:17] - Se ejecuta metodo __exit__
+27/01/2022 14:43:16 - DEBUG- [cursor_del_pool.py:23] - Transaccion exitosa rey
+27/01/2022 14:43:16 - DEBUG- [conexion.py:45] - Conexion liberada Kinga <connection object at 0x0000014BEC993AB0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1', closed: 0>
+27/01/2022 14:43:16 - INFO- [menu_app_usuario.py:25] - Usuario agregado rey de kinga: Usuario: None, uuu, 7878
+27/01/2022 14:44:10 - DEBUG- [cursor_del_pool.py:11] - Inicio del rey __enter__
+27/01/2022 14:44:10 - DEBUG- [usuario_dao.py:39] - Actualizando usuario KINGAAAAAA Usuario: 2, art, 5678
+27/01/2022 14:44:10 - DEBUG- [cursor_del_pool.py:17] - Se ejecuta metodo __exit__
+27/01/2022 14:44:10 - DEBUG- [cursor_del_pool.py:23] - Transaccion exitosa rey
+27/01/2022 14:44:10 - DEBUG- [conexion.py:45] - Conexion liberada Kinga <connection object at 0x0000014BEC993AB0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1', closed: 0>
+27/01/2022 14:44:10 - INFO- [menu_app_usuario.py:33] - Usuario modificado rey de kinga: Usuario: 2, art, 5678
+27/01/2022 14:44:42 - DEBUG- [cursor_del_pool.py:11] - Inicio del rey __enter__
+27/01/2022 14:44:42 - DEBUG- [usuario_dao.py:47] - volamo el usuario rey Usuario: 8, None, None
+27/01/2022 14:44:42 - DEBUG- [cursor_del_pool.py:17] - Se ejecuta metodo __exit__
+27/01/2022 14:44:42 - DEBUG- [cursor_del_pool.py:23] - Transaccion exitosa rey
+27/01/2022 14:44:42 - DEBUG- [conexion.py:45] - Conexion liberada Kinga <connection object at 0x0000014BEC993AB0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1', closed: 0>
+27/01/2022 14:44:42 - INFO- [menu_app_usuario.py:39] - Usuario eliminado rey de kinga: Usuario: 8, None, None
+27/01/2022 14:44:47 - DEBUG- [cursor_del_pool.py:11] - Inicio del rey __enter__
+27/01/2022 14:44:47 - DEBUG- [usuario_dao.py:19] - Seleccionando todos los usuarios
+27/01/2022 14:44:47 - DEBUG- [cursor_del_pool.py:17] - Se ejecuta metodo __exit__
+27/01/2022 14:44:47 - DEBUG- [cursor_del_pool.py:23] - Transaccion exitosa rey
+27/01/2022 14:44:47 - DEBUG- [conexion.py:45] - Conexion liberada Kinga <connection object at 0x0000014BEC993AB0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1', closed: 0>
+27/01/2022 14:44:47 - INFO- [menu_app_usuario.py:18] - Usuario: 1, jperez, 12345
+27/01/2022 14:44:47 - INFO- [menu_app_usuario.py:18] - Usuario: 2, art, 5678
+27/01/2022 14:44:47 - INFO- [menu_app_usuario.py:18] - Usuario: 3, eeee, 12345
+27/01/2022 14:44:47 - INFO- [menu_app_usuario.py:18] - Usuario: 4, garza, 123456
+27/01/2022 14:44:47 - INFO- [menu_app_usuario.py:18] - Usuario: 5, Juanchu, 1234
+27/01/2022 14:44:47 - INFO- [menu_app_usuario.py:18] - Usuario: 6, Juanchu, 1234
+27/01/2022 14:44:47 - INFO- [menu_app_usuario.py:18] - Usuario: 7, Juanchu, 1234
+27/01/2022 14:45:16 - INFO- [menu_app_usuario.py:42] - Saliendo del programa
+27/01/2022 14:45:58 - DEBUG- [cursor_del_pool.py:11] - Inicio del rey __enter__
+27/01/2022 14:45:58 - DEBUG- [conexion.py:29] - Conexion establecida <psycopg2.pool.SimpleConnectionPool object at 0x0000019015733EE0>
+27/01/2022 14:45:58 - DEBUG- [usuario_dao.py:19] - Seleccionando todos los usuarios
+27/01/2022 14:45:58 - DEBUG- [cursor_del_pool.py:17] - Se ejecuta metodo __exit__
+27/01/2022 14:45:58 - DEBUG- [cursor_del_pool.py:23] - Transaccion exitosa rey
+27/01/2022 14:45:58 - DEBUG- [conexion.py:45] - Conexion liberada Kinga <connection object at 0x0000019015203AB0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1', closed: 0>
+27/01/2022 14:45:58 - INFO- [menu_app_usuario.py:18] - Usuario: 1, jperez, 12345
+27/01/2022 14:45:58 - INFO- [menu_app_usuario.py:18] - Usuario: 2, art, 5678
+27/01/2022 14:45:58 - INFO- [menu_app_usuario.py:18] - Usuario: 3, eeee, 12345
+27/01/2022 14:45:58 - INFO- [menu_app_usuario.py:18] - Usuario: 4, garza, 123456
+27/01/2022 14:45:58 - INFO- [menu_app_usuario.py:18] - Usuario: 5, Juanchu, 1234
+27/01/2022 14:45:58 - INFO- [menu_app_usuario.py:18] - Usuario: 6, Juanchu, 1234
+27/01/2022 14:45:58 - INFO- [menu_app_usuario.py:18] - Usuario: 7, Juanchu, 1234
+27/01/2022 14:46:54 - DEBUG- [cursor_del_pool.py:11] - Inicio del rey __enter__
+27/01/2022 14:46:54 - DEBUG- [conexion.py:29] - Conexion establecida <psycopg2.pool.SimpleConnectionPool object at 0x000001DC77EF3EE0>
+27/01/2022 14:46:54 - DEBUG- [usuario_dao.py:19] - Seleccionando todos los usuarios
+27/01/2022 14:46:54 - DEBUG- [cursor_del_pool.py:17] - Se ejecuta metodo __exit__
+27/01/2022 14:46:54 - DEBUG- [cursor_del_pool.py:23] - Transaccion exitosa rey
+27/01/2022 14:46:54 - DEBUG- [conexion.py:45] - Conexion liberada Kinga <connection object at 0x000001DC77D83AB0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1', closed: 0>
+27/01/2022 14:46:54 - INFO- [menu_app_usuario.py:18] - Usuario: 1, jperez, 12345
+27/01/2022 14:46:54 - INFO- [menu_app_usuario.py:18] - Usuario: 2, art, 5678
+27/01/2022 14:46:54 - INFO- [menu_app_usuario.py:18] - Usuario: 3, eeee, 12345
+27/01/2022 14:46:54 - INFO- [menu_app_usuario.py:18] - Usuario: 4, garza, 123456
+27/01/2022 14:46:54 - INFO- [menu_app_usuario.py:18] - Usuario: 5, Juanchu, 1234
+27/01/2022 14:46:54 - INFO- [menu_app_usuario.py:18] - Usuario: 6, Juanchu, 1234
+27/01/2022 14:46:54 - INFO- [menu_app_usuario.py:18] - Usuario: 7, Juanchu, 1234
+27/01/2022 14:48:23 - DEBUG- [cursor_del_pool.py:11] - Inicio del rey __enter__
+27/01/2022 14:48:23 - DEBUG- [conexion.py:29] - Conexion establecida <psycopg2.pool.SimpleConnectionPool object at 0x000001CF3C0DEF20>
+27/01/2022 14:48:23 - DEBUG- [usuario_dao.py:31] - Insertando usuario rey  Usuario: None, justi, 34
+27/01/2022 14:48:23 - DEBUG- [cursor_del_pool.py:17] - Se ejecuta metodo __exit__
+27/01/2022 14:48:23 - DEBUG- [cursor_del_pool.py:23] - Transaccion exitosa rey
+27/01/2022 14:48:23 - DEBUG- [conexion.py:45] - Conexion liberada Kinga <connection object at 0x000001CF3A203AB0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1', closed: 0>
+27/01/2022 14:48:23 - INFO- [menu_app_usuario.py:25] - Usuario agregado rey de kinga: Usuario: None, justi, 34
+27/01/2022 14:48:30 - DEBUG- [cursor_del_pool.py:11] - Inicio del rey __enter__
+27/01/2022 14:48:30 - DEBUG- [usuario_dao.py:19] - Seleccionando todos los usuarios
+27/01/2022 14:48:30 - DEBUG- [cursor_del_pool.py:17] - Se ejecuta metodo __exit__
+27/01/2022 14:48:30 - DEBUG- [cursor_del_pool.py:23] - Transaccion exitosa rey
+27/01/2022 14:48:30 - DEBUG- [conexion.py:45] - Conexion liberada Kinga <connection object at 0x000001CF3A203AB0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1', closed: 0>
+27/01/2022 14:48:30 - INFO- [menu_app_usuario.py:18] - Usuario: 1, jperez, 12345
+27/01/2022 14:48:30 - INFO- [menu_app_usuario.py:18] - Usuario: 2, art, 5678
+27/01/2022 14:48:30 - INFO- [menu_app_usuario.py:18] - Usuario: 3, eeee, 12345
+27/01/2022 14:48:30 - INFO- [menu_app_usuario.py:18] - Usuario: 4, garza, 123456
+27/01/2022 14:48:30 - INFO- [menu_app_usuario.py:18] - Usuario: 5, Juanchu, 1234
+27/01/2022 14:48:30 - INFO- [menu_app_usuario.py:18] - Usuario: 6, Juanchu, 1234
+27/01/2022 14:48:30 - INFO- [menu_app_usuario.py:18] - Usuario: 7, Juanchu, 1234
+27/01/2022 14:48:30 - INFO- [menu_app_usuario.py:18] - Usuario: 9, justi, 34
