@@ -1,18 +1,57 @@
-function Persona (nombre, apellido, email){
+/*function Persona (nombre, apellido, email){
     this.nombre = nombre;
     this.apellido = apellido;
     this.email = email;
     this.nombrecomple = function(){
         return this.nombre + " " + this.apellido;
     }
+}*/
+
+let persona = {
+    nombre: "Pedro",
+    apellido: "Perez",
+    nombrecomple: function (titulo, telefono){
+        return this.nombre + " " + this.apellido + " " + titulo + " " + telefono;
+    }
 }
+let persona2 = {
+    nombre: "Juan",
+    apellido: "loco",
+}
+//Persona.prototype.telefono = '112232';
 
-let padre = new Persona('Juan', 'Perez', 'raaay@gmail.com');
-let hijo = new Persona('Pedro', 'Perez', 'ray3@gmail.com');
+//Uso de call para usar
+//el metodo persona.nombrecomple()
 
-console.log (padre);
-console.log (hijo);
+console.log(persona.nombrecomple('conta', '112233'));
 
+console.log(persona.nombrecomple.call(persona2, 'ING', '121231231212'));
+// console.log(persona.nombrecomple.apply(persona2, ['ING', '121231231212']));
+//let padre = new Persona('Juan', 'Perez', 'raaay@gmail.com');
+//let hijo = new Persona('Pedro', 'Perez', 'ray3@gmail.com');
+
+//padre.telefono = '12312312312312';
+
+//console.log (padre.telefono);
+//console.log (hijo.telefono);
+
+
+let miObjeto = new Object();
+let miObjeto2 = {};
+
+let micadena = new String('hola');
+let micadena2 = 'hola';
+
+let minumero = new Number(10);
+let minumero2 = 10;
+
+let miboolean = new Boolean(true);
+let miboolean2 = true;
+
+let miarreglo = new Array();
+let miarreglo2 = [];
+
+let mifuncion   = new Function('console.log("hola")');
 /*
 let persona = {
     nombre: "Juan",
