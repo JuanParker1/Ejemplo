@@ -21,3 +21,8 @@ print(arr_ent)
 
 lista_arr = plano_Arr.tolist()
 print(lista_arr)
+
+arrays = np.split(arr_ent,2, axis = 0)
+print(arrays)
+
+np.concatenate((arrays[0],arrays[1]),axis = 1)
