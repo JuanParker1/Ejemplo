@@ -17,3 +17,17 @@ def crearDataSet(Num=1):
 
         #lista de status aleatorios
         status_list = [status[np.random.randint(low = 0, high = len(status))] for i in range(len(fecha))]
+
+        #locales posibles
+        states = ['Aguascalientes', 'Baja California', 'Baja California Sur']
+
+        # lista aleatoria de locales
+        states_list = [states[np.random.randint(low = 0, high = len(states))] for i in range(len(fecha))]
+
+        output.extend(zip(fecha, data, status_list, states_list))
+
+    return output
+
+dataset = crearDataSet(Num=4)
+df = pd.DataFrame(data = dataset, columns = ['fecha', 'data', 'status', 'states'])
+print(df)
